@@ -11,10 +11,13 @@
        <div class="container-fluid">
             <div class="block-header">
                 <a href="{{route('admin.post.create')}}" class="btn btn-success">
-                	<i class="material-icons">add</i>
                 	<span>Add New Post</span>
                 </a>
+                <a target="_blank" href="{{route('admin.pdf.post')}}" class="btn btn-success " style="float: right;">PDF All Posts   
+                </a>
             </div>
+
+            
             <!-- Basic Examples -->
                      <!-- #END# Basic Examples -->
             <!-- Exportable Table -->

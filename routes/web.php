@@ -66,6 +66,8 @@ Route::name('admin.')->namespace('Admin')->prefix('admin')->middleware(['auth','
      Route::put('profile-update','AdminSetingController@profile_update')->name('profile.update');
      Route::put('password-update','AdminSetingController@password_update')->name('password.update');
      Route::get('favarite-list','FavariteController@index')->name('favarite.post');
+     //...................pdf route................
+     Route::get('posts_pdf','PDFController@pdfPost')->name('pdf.post');
 });
 
 //.................subscriber route...........
@@ -84,6 +86,16 @@ Route::get('post/{slug}','PostController@details')->name('single.post');
 Route::get('post/category/{id}','PostController@category_post')->name('category.posts');
 //......................tag route....................
 Route::get('post/tag/{id}','PostController@tag_post')->name('tag.posts');
+
+
+
+
+
+
+
+
+
+
 
 //...............view route for category
 
