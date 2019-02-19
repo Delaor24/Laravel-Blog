@@ -1,5 +1,5 @@
 * text=auto
-*.html linguist-language=Laravel
+*.HTML linguist-language=Laravel
 *.css linguist-vendored
 *.scss linguist-vendored
 *.js linguist-vendored
