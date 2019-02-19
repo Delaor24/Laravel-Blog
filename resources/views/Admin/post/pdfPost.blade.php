@@ -21,7 +21,7 @@
     <tr>
       <th>Serial</th>
       <th>Title</th>
-     
+      
       <th>Author Name</th>
       <th>Created at</th>
     </tr>
@@ -31,7 +31,7 @@
       <tr>
         <td>{{$key + 1}}</td>
         <td>{{$post->title}}</td>
-
+        
         <td>{{$post->user->name}}</td>
         <td>{{$post->created_at->toFormattedDateString()}}</td>
       </tr>
